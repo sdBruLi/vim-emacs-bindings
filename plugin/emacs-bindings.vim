@@ -12,8 +12,8 @@ imap <C-k> <C-r>=<SID>kill_line()<CR>
 " command line mode
 " cmap <C-p> <Up>
 " cmap <C-n> <Down>
-" cmap <C-b> <Left>
-" cmap <C-f> <Right>
+cmap <C-b> <Left>
+cmap <C-f> <Right>
 cmap <C-a> <Home>
 cmap <C-e> <End>
 cnoremap <C-d> <Del>
