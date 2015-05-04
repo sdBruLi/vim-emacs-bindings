@@ -14,11 +14,11 @@ imap <C-k> <C-r>=<SID>kill_line()<CR>
 " cmap <C-n> <Down>
 " cmap <C-b> <Left>
 " cmap <C-f> <Right>
-" cmap <C-a> <Home>
-" cmap <C-e> <End>
-" cnoremap <C-d> <Del>
-" cnoremap <C-h> <BS>
-" cnoremap <C-k> <C-f>D<C-c><C-c>:<Up>
+cmap <C-a> <Home>
+cmap <C-e> <End>
+cnoremap <C-d> <Del>
+cnoremap <C-h> <BS>
+cnoremap <C-k> <C-f>D<C-c><C-c>:<Up>
 
 " command-T window
 let g:CommandTCursorLeftMap  = ['<Left>',  '<C-b>']
